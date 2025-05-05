@@ -34,8 +34,8 @@ Install the necessary Python libraries using `pip`:
 3. **Setup MySQL Database**:
 - Ensure that MySQL is running on your system.
 - Create a database in MySQL (you can name it `school` or any preferred name):
-```sql
-CREATE DATABASE school;
+- CREATE DATABASE school;
+
 
 4. **Configure the database connection**:
 - In the project folder, open main.py and set up your MySQL database connection. Replace the placeholder values with your database credentials:
