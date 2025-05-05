@@ -23,12 +23,12 @@ Before setting up the project, make sure you have the following installed on you
 ### Setup
 
 1. **Clone the repository**:
-git clone https://github.com/Socee-tech/feb-2025-wk-8-database-assignment.git
-cd feb-2025-wk-8-database-assignment
+- git clone https://github.com/Socee-tech/feb-2025-wk-8-database-assignment.git
+- cd feb-2025-wk-8-database-assignment
 
 
 2. **Install required dependencies**:
-Install the necessary Python libraries using `pip`:
+- Install the necessary Python libraries using `pip`:
 
 
 3. **Setup MySQL Database**:
@@ -39,9 +39,9 @@ Install the necessary Python libraries using `pip`:
 
 4. **Configure the database connection**:
 - In the project folder, open main.py and set up your MySQL database connection. Replace the placeholder values with your database credentials:
-DATABASE_URL = "mysql+pymysql://user:password@localhost/student_portal"
+- DATABASE_URL = "mysql+pymysql://user:password@localhost/student_portal"
 
 
 5. **Run the fast api application**
 - If yo are using vscode under the student portal folder, right click the file named main.py and open it in intergrated terminal and run the following command.
-uvicorn main:app --reload
+- uvicorn main:app --reload
